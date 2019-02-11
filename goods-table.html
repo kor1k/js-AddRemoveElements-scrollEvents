@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            margin-top: 40px;
+            width: 100%;
+        }
+
+        table, th, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<input type="text" id="search" placeholder="press Enter to search good">
+<table id="goods-table">
+    <thead>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>1</td>
+        <td>Apples</td>
+        <td>2.50</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Pears</td>
+        <td>2</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Pineapples</td>
+        <td>5</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Grapes</td>
+        <td>1.50</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Grapefruits</td>
+        <td>4.50</td>
+        <td>15</td>
+    </tr>
+</table>
+<button id="add-row">add new good</button>
+<button id="remove-row">remove last good</button>
+<script src="js/goods.js"></script>
+</body>
+</html>
